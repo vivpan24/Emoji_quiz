@@ -1,0 +1,20 @@
+body{
+   background-color: rgb(59, 135, 138);
+}
+h1{
+    text-align: center;
+}
+p{
+    display: none;
+}
+li:hover +p{
+    display: block;
+    color:black;
+}
+div{
+    display: inline-block;
+    margin-right: 40px;
+}
+li{
+font-size:x-large;
+}
